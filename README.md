@@ -1,16 +1,44 @@
-<<<<<<< HEAD
 # Weather-App
-=======
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive Weather Application built with **React + Vite**, deployed on GitHub Pages. Get real-time weather updates and forecasts for any city.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+👉 [Weather App](https://annpurna04.github.io/Weather-App/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> ce03a82 (Initial commit)
+---
+
+## ✨ Features
+
+- 🌍 Search by city name for current weather
+- 🌡️ View temperature, humidity, wind speed, and more
+- 📱 Mobile-friendly and responsive design
+- ⚡ Fast loading with Vite build system
+
+---
+
+## 🛠️ Built With
+
+- [React](https://reactjs.org/) — UI library  
+- [Vite](https://vitejs.dev/) — Next generation frontend tooling  
+- [gh-pages](https://www.npmjs.com/package/gh-pages) — Easy GitHub Pages deployment  
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have **Node.js** and **npm** installed.  
+Download from: [https://nodejs.org](https://nodejs.org)
+
+### Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/annpurna04/Weather-App.git
+cd Weather-App
+npm install
