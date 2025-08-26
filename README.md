@@ -42,3 +42,91 @@ Clone the repository and install dependencies:
 git clone https://github.com/annpurna04/Weather-App.git
 cd Weather-App
 npm install
+```
+
+### 🧑‍💻 Run locally
+```bash
+npm run dev
+```
+
+---
+## 📦 Build & Deploy
+
+Your **package.json** should include:
+
+```json
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+ ```
+### Deploy:
+
+```bash
+npm run deploy
+```
+
+## 📁 Project Structure
+
+```
+Weather-App/
+├── public/
+│   └── index.html
+├── src/
+│   ├── main.jsx
+│   └── components/
+├── dist/                # Generated after build
+├── vite.config.js
+├── package.json
+└── README.md
+```
+## 🔑 API Setup
+
+This app uses a weather API that requires an API key.
+
+1. Create a file named **`.env`** in the root folder.  
+2. Add your API key like this:
+
+```env
+VITE_API_KEY=your_api_key_here
+```
+3. Restart your development server:
+```bash
+npm run dev
+``` 
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository  
+2. Create a new branch:  
+
+```bash
+git checkout -b feature/my-feature
+```
+3. Commit your changes:
+
+``` bash
+git commit -m 'Add my feature'
+```
+4. Push to your branch:
+
+``` bash
+git push origin feature/my-feature
+```
+5. Open a Pull Request
+
+---
+
+## 📜 License
+
+Licensed under the [MIT License](LICENSE).
+
+---
+## 🙋‍♀️ Author
+
+**Annpurna Gupta**  
+🌐 [GitHub Profile](https://github.com/annpurna04)
